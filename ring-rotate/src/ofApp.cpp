@@ -26,7 +26,7 @@ void ofApp::draw(){
         float y = radius * sin(theta);
         float z = radius * sin(theta + ofGetElapsedTimef());
         ofSetColor(255);
-        ofDrawSphere(x, y, z, 5);
+        ofDrawSphere(x, y, z, 2);
         if (theta > 0) {
             ofDrawLine(x, y, z, prevX, prevY, prevZ);
         }
